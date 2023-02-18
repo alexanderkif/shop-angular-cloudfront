@@ -29,3 +29,13 @@ Follow the steps:
 - git clone
 - npm i
 - ng serve
+
+## Deploy to AWS S3
+
+Start serverless deploy to AWS S3 CloudFront
+
+- npm run deploy:s3
+
+Build & update deploy
+
+- npm run build:deploy
