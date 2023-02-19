@@ -39,3 +39,11 @@ Start serverless deploy to AWS S3 CloudFront
 Build & update deploy
 
 - npm run build:deploy
+
+## Links
+
+CloudFront URL
+https://d10yj7znnvzslf.cloudfront.net
+
+S3-website
+http://s3-art-shop.s3-website-eu-west-1.amazonaws.com/
