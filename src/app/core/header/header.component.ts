@@ -13,6 +13,8 @@ export class HeaderComponent implements OnInit {
   constructor(private readonly cartService: CartService) {}
 
   ngOnInit(): void {
+    // changes
+    this.cartService.getCart();
     this.totalInCart$ = this.cartService.totalInCart$;
   }
 }
